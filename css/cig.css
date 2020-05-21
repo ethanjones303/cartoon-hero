@@ -8,6 +8,8 @@ body{
 header{
 	background-color: #9B938F;
 	text-align: center;
+	border: solid 20px black;
+	box-sizing: border-box;
 
 }
 

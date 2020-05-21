@@ -4,6 +4,7 @@ body{
 		font-family: 'Inconsolata', monospace;
     font-family: 'Roboto', sans-serif;
     z-index: 1;
+    margin: 0px 25px 25px 25px;
 }
 h1{
 	color:white;
@@ -19,6 +20,9 @@ h2{
     font-family: 'Inconsolata', monospace;
     font-family: 'Roboto', sans-serif;
     z-index: 9;
+    float: left;
+    position: absolute;
+    margin: 600px 0 0 300px;
 }
 
 header{
@@ -30,8 +34,17 @@ header{
 	z-index: 10;
 }
 
+footer{
+	text-align: center;
+	color: white;
+}
 
-p.righttxt{    
+a:hover{
+	color: black;
+}
+
+
+.righttxt{    
 	position: absolute;
 	right: 150px;
 	top:180px;
@@ -41,40 +54,40 @@ p.righttxt{
 
 }
 
-p.lefttxt{    
-	position: absolute;
+.lefttxt{    
 	left: 0px;
-	width: 300px;
-	padding: 10px;
+	width: 800px;
+	padding: 0px;
 	font-size: 25px;
-	position: static;
-
+	margin: 700px 0 0 0;
 }
 
 .rightpic{
-	margin: 25px 50px 75px 1100px;
+	float: right;
+	margin: 540px 0px 25px 0px;
+
 }
 
 .leftpic{
 	float: left;
-}
-
-.rightbox{
-
-	margin-left: 50%;
-	width: 50%;
-	height: 100%;
-	background-color: lightblue;
-	padding: 60px;
-	z-index: 2;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-top: 0;
-
+	margin: 0;
 }
 
 
 
+.righttxt{
+	width: 800px;
+	margin: 0 0 0 500px;
+	
+}
+
+
+
+.container{
+	position: relative;
+	text-align: right;
+	color: white;
+}
 
 
 

@@ -1,0 +1,15 @@
+h2{
+	background-color: #FA8072;
+	color: white;
+	font-size: 20px;
+	margin: -100px 0 0 -50px;
+	
+}
+
+.box-one{
+	background-color: lightblue;
+	box-sizing: border-box;
+	padding: 50px;
+	margin: 50px;
+}
+
