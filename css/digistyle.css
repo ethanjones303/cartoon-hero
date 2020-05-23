@@ -51,6 +51,8 @@ a:hover{
 	width: 500px;
 	padding: 10px;
 	font-size: 25px;
+	text-align: center;
+	display: inline;
 
 }
 
@@ -60,6 +62,7 @@ a:hover{
 	padding: 0px;
 	font-size: 25px;
 	margin: 700px 0 0 0;
+	text-align: center;
 }
 
 .rightpic{
@@ -70,7 +73,7 @@ a:hover{
 
 .leftpic{
 	float: left;
-	margin: 0;
+	margin: 0, 50%, 0, 0;
 }
 
 
@@ -85,9 +88,16 @@ a:hover{
 
 .container{
 	position: relative;
-	text-align: right;
-	color: white;
+    right: -50%;
+	background-color: darkgrey;
+	width: 50%;
+
 }
 
+.container:after{
+	content: '';
+	display: table;
+	clear: both;
+}
 
 
